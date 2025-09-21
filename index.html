@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Spotify -Music Player</title>
+</head>
+<body>
+    <div class="banner">
+        <div class = "left-banner">
+            <img class="left-img"src="images/img2.jpg" alt="left-banner-img">
+         <div class="heading">
+
+    </div>
+    
+    <div class = "main-section">
+
+  <div class="controls" onclick="playaudio()" id="play-pause">
+    <img class="play-button" src="images/play.jpg" alt="play-image">
+  </div>
+
+
+         <audio id="song"></audio>
+
+        <table>
+            <thead>
+            <th class="song-number">#</th>
+            <th class ="song-title">Title</th>
+            <th class="song-artist">Artist</th>
+            <th class="song-duration">Duration</th>
+            </thead>
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td>alone</td>
+                <td>Tomomi_Kato</td>
+                <td>5.08</td>
+            </tr>
+            <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td>Sad Dramatic Piano</td>
+                <td>LudoSoundX</td>
+                <td>2.51</td>
+            </tr>
+            <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td>Do You Miss Me</td>
+                <td>uthie</td>
+                <td>1.35</td>
+            </tr>
+            <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td>Ambiance</td>
+                <td>rick</td>
+                <td>2.43</td>
+            </tr>
+            <tr id="song5" onclick="playAll(5)" >
+                <td>5</td>
+                <td>Reprising</td>
+                <td>gaslo</td>
+                <td>3.05</td>
+            </tr>
+            <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td>Tuning</td>
+                <td>Unsalmo</td>
+                <td>1.40</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
